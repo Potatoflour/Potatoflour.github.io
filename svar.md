@@ -1,0 +1,1 @@
+1. Den minsta filen är ca 96% mindre
