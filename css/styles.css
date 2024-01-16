@@ -53,30 +53,30 @@ img {
 
 /* Dropdown knappen för menyn!!! */
 .dropbtn {
-    background-color: #344149;
-    border: solid;
-    border-radius: 40px;
+    background-color: rgb(221, 208, 208);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: white;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
 
-/* Dropdown menyn när den hovras!! */
+/* Dropdown menyn när den hovras!! 
 .dropbtn:hover, .dropbtn:focus {
     background-color: #2980B9;
-}
+} */
 
 /* Positionen för diven */
 .dropdown {
+    float: right;
     position: relative;
-    display: inline-block;
+    margin: 40px;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
+    right: 0;
     display: none;
     position: absolute;
     background-color: #f1f1f1;
