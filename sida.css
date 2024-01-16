@@ -14,7 +14,9 @@ img {
 }
 
 .Hund {
-    grid-gap: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .wide {
